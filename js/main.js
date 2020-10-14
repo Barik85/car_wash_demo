@@ -1,0 +1,1 @@
+"use strict";var mainFn=function(){var e=document.querySelector(".phone_input"),t=document.querySelector(".green_checkmark");e.addEventListener("input",function(e){var n=e.target.value;n&&10===n.length?t.classList.add("visible"):t.classList.remove("visible")})};document.addEventListener("DOMContentLoaded",mainFn);
